@@ -51,7 +51,7 @@ class MyApp : Application(),Application.ActivityLifecycleCallbacks {
         var openLog:Boolean = true
         val DBVERSION:Int = 2
     }
-
+    //todo 
     override fun onCreate() {
         super.onCreate()
         mApp = applicationContext as MyApp
